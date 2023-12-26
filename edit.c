@@ -7,7 +7,7 @@ void swap(int *a, int *b)
     *a = *b;
     *b = temp;
 }
-int div(int a, int b){
+int sub(int a, int b){
     return abs(a-b);
 }
 int sum(int a,int b){
