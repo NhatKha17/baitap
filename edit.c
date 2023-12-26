@@ -1,9 +1,14 @@
 #include <stdio.h>
+#include<math.h>
+#include<stdlib.h>
 void swap(int *a, int *b)
 {
     int temp = *a;
     *a = *b;
     *b = temp;
+}
+int div(int a, int b){
+    return abs(a-b);
 }
 int sum(int a,int b){
  return a+b;
